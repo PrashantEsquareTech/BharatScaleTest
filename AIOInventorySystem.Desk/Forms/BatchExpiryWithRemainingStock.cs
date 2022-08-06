@@ -13,12 +13,8 @@ namespace AIOInventorySystem.Desk.Forms
     {
         DbClass db = new DbClass();
         CommonMethod cm = new CommonMethod();
-        //first push
-        //Secound Push From colabrator
-        // third push test
-        // fourst push
-        // fifth push
-        //sa
+        //first push New
+     
         public BatchExpiryWithRemainingStock()
         {
             InitializeComponent();
