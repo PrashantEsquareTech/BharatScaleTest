@@ -1,0 +1,721 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28D8A4A6-173C-4C3D-8887-CF018E1F47AC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AIOInventorySystem.Data</RootNamespace>
+    <AssemblyName>AIOInventorySystem.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Management.Instrumentation" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Model\AccountingGroupMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\AveragePurAndSalePrice.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\BankInformation.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\BankStatement.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\BarcodeSetting.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Batch.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\BillInstruction.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\BillWiseSupplierReceipt.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CashBookDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Category.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Colorinfo.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CompanyInformation.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CompoundUnitStock.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CounterCash.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CreditAmount.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CustCreditDebitDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CustCreditDebitMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CustomerBillDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CustomerBillMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CustomerBonu.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CustomerInformation.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\CustomerReportSetting.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DeadProductDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DeadProductMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DeleteHistoryTable.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DeliveryChallanDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\DeliveryChallanMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Departement.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Expence.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ExpenceMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FakeRemainingPayment.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Festival.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\FestivalTemplate.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\GodownMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\GodownStock.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\GoodReturnDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\GoodReturnMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\GroupMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\GSTMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\GSTRateTrackProductWise.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Income.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\IncomeMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\JournalEntry.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Login.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ManuCompanyInfo.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ManufacturingUnitInfo.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\MistriInformation.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\OrderBook.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\OrderBookdetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ProductInformation.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ProfitLossDr.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ProprietorLedger.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ProprietorMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\PurchaseDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\PurchaseDetailTrack.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\PurchaseMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\PurchaseOrderPlaceDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\PurchaseOrderPlaceMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\PurchaseReturnDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\PurchaseReturnMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\QuotationDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\QuotationMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RateSlab.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RateSlabDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Receipt.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RecieptChalanDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RecieptChallanMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RemainingPayment.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Reminder.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RepackDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\RepackMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SendMail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SendSM.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ServiceInvoiceDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ServiceInvoiceMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Setting.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SiteInfo.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SlabDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SlabMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\StaffInfo.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\StateMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Stock.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\StockAlert.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\StockDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\StockOpening.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\StockVat.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SubCategory.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SubGroupMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SuppCreditDebitDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SuppCreditDebitMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SupplierInformation.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SupplierRemainingPayment.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SwamiSamarthModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SwamiSamarthModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SwamiSamarthModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\SwamiSamarthModel1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SwamiSamarthModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Model\sysdiagram.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TaxSlabMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tbEnvirnmentAndCurtainCoolpadSystemDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblAlertForSupplier.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblAllPurchaseListReport.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblAssemblyProductDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblBalanceSheet.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblBillWiseCustomerLedger.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblDailySaleDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblEnvirnmentAndCurtainCoolpadSystemMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblGSTR2.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblNippleFeederSystemDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblNippleFeederSystemMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblProjectAtGlanceMaster.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblProjectGlanceDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblRawProductRemQty.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblRemainingPaymentReport.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblRouteInfo.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblTransactionYearDate.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TblunpaidBonusList.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblVentilationAndCoolingSystem.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblVentilationAndCoolingSystemDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tblVillageInfo.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\ThermalBillSetting.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\tnlQuotationImge.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TradingnPLAC.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TrailPeriod.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TransferStock.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\TransferStockDetail.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\Unit.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\UserSeriesOfVoucher.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model\VehicleInformation.cs">
+      <DependentUpon>SwamiSamarthModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\AccountingGroupMasterRepository.cs" />
+    <Compile Include="Repository\AssemeblyProductDetailsRepository.cs" />
+    <Compile Include="Repository\AveragePurAndSalePriceRepository.cs" />
+    <Compile Include="Repository\BankRepository.cs" />
+    <Compile Include="Repository\BankStatementRepository.cs" />
+    <Compile Include="Repository\BarcodeSettingRepository.cs" />
+    <Compile Include="Repository\BatchRepository.cs" />
+    <Compile Include="Repository\BillInstructionRepository.cs" />
+    <Compile Include="Repository\BillWiseSupplierReceiptRepository.cs" />
+    <Compile Include="Repository\BonusRepository.cs" />
+    <Compile Include="Repository\CategoryRepository.cs" />
+    <Compile Include="Repository\Class1.cs" />
+    <Compile Include="Repository\ColorRepository.cs" />
+    <Compile Include="Repository\CompanyInformationRepository.cs" />
+    <Compile Include="Repository\CounterCashRepository.cs" />
+    <Compile Include="Repository\CreditAmountRepository.cs" />
+    <Compile Include="Repository\CustCreditDebitNoteDetailRepository.cs" />
+    <Compile Include="Repository\CustCreditDebitNoteMasterRepository.cs" />
+    <Compile Include="Repository\CustomerBillDetailRepository.cs" />
+    <Compile Include="Repository\CustomerBillMasterRepository.cs" />
+    <Compile Include="Repository\CustomerReportSettingRepository.cs" />
+    <Compile Include="Repository\CustomerRepository.cs" />
+    <Compile Include="Repository\DeadDetailRepository.cs" />
+    <Compile Include="Repository\DeadMasterRepository.cs" />
+    <Compile Include="Repository\DeleteHistoryTableRepository.cs" />
+    <Compile Include="Repository\DeliveryChallanDetailRepository.cs" />
+    <Compile Include="Repository\DeliveryChallanRepository.cs" />
+    <Compile Include="Repository\DepartemetRepository.cs" />
+    <Compile Include="Repository\EnvironementAndCurtainCoolpadSystemDetailRepository.cs" />
+    <Compile Include="Repository\EnvironementAndCurtainCoolpadSystemMasterRepository.cs" />
+    <Compile Include="Repository\ExpenceMasterRepository.cs" />
+    <Compile Include="Repository\ExpenceRepository.cs" />
+    <Compile Include="Repository\FakeRemainingPaymentRepository.cs" />
+    <Compile Include="Repository\FestivalRepository.cs" />
+    <Compile Include="Repository\FestivalTemplateRepository.cs" />
+    <Compile Include="Repository\GenericRepository.cs" />
+    <Compile Include="Repository\GodownMasterRepository.cs" />
+    <Compile Include="Repository\GodownStockRepository.cs" />
+    <Compile Include="Repository\GoodDetailRepository.cs" />
+    <Compile Include="Repository\GoodMasterRepository.cs" />
+    <Compile Include="Repository\GroupMasterRepository.cs" />
+    <Compile Include="Repository\GSTMasterRepository.cs" />
+    <Compile Include="Repository\IncomeMasterRepository.cs" />
+    <Compile Include="Repository\IncomeRepository.cs" />
+    <Compile Include="Repository\JournalEntryRepository.cs" />
+    <Compile Include="Repository\LoginRepository.cs" />
+    <Compile Include="Repository\ManufactureCInfoRepository.cs" />
+    <Compile Include="Repository\ManufacturingUnitInfoRepository.cs" />
+    <Compile Include="Repository\MistriRepository.cs" />
+    <Compile Include="Repository\NippleFeederSystemDetailRepository.cs" />
+    <Compile Include="Repository\NippleFeederSystemMasterRepository.cs" />
+    <Compile Include="Repository\OrderbookdetailRepository.cs" />
+    <Compile Include="Repository\OrderbookingRepository.cs" />
+    <Compile Include="Repository\PReturnDetailRepository.cs" />
+    <Compile Include="Repository\PReturnMasterRepository.cs" />
+    <Compile Include="Repository\ProductRepository.cs" />
+    <Compile Include="Repository\ProjectGlanceDetailRepository.cs" />
+    <Compile Include="Repository\ProjectGlanceMasterRepository.cs" />
+    <Compile Include="Repository\ProprietorLedgerRepository.cs" />
+    <Compile Include="Repository\ProprietorMasterRepository.cs" />
+    <Compile Include="Repository\PurchaseDetailRepository.cs" />
+    <Compile Include="Repository\PurchaseDetailTrackRepository.cs" />
+    <Compile Include="Repository\PurchaseMasterRepository.cs" />
+    <Compile Include="Repository\PurchaseOrderPlaceDetailRepository.cs" />
+    <Compile Include="Repository\PurchaseOrderPlaceMasterRepository.cs" />
+    <Compile Include="Repository\QuotationDetailRepository.cs" />
+    <Compile Include="Repository\QuotationImageMasterRepository.cs" />
+    <Compile Include="Repository\QuotationMasterRepository.cs" />
+    <Compile Include="Repository\RateSlabDetailRepository.cs" />
+    <Compile Include="Repository\RateSlabRepository.cs" />
+    <Compile Include="Repository\RateVariationDetailRepository.cs" />
+    <Compile Include="Repository\RateVariationMasterRepository.cs" />
+    <Compile Include="Repository\ReceiptRepository.cs" />
+    <Compile Include="Repository\RecieptChalanDetailRepository.cs" />
+    <Compile Include="Repository\RecieptChallanMasterRepository.cs" />
+    <Compile Include="Repository\RemainingPaymentRepository.cs" />
+    <Compile Include="Repository\ReminderRepository.cs" />
+    <Compile Include="Repository\RepackDetailRepository.cs" />
+    <Compile Include="Repository\RepackMasterRepository.cs" />
+    <Compile Include="Repository\RouteRepository.cs" />
+    <Compile Include="Repository\SDetailRepository.cs" />
+    <Compile Include="Repository\SemdMailRepository.cs" />
+    <Compile Include="Repository\ServiceDetailRepository.cs" />
+    <Compile Include="Repository\ServiceRepository.cs" />
+    <Compile Include="Repository\SettingRepository.cs" />
+    <Compile Include="Repository\SiteInfoRepository.cs" />
+    <Compile Include="Repository\SlabDetailRepository.cs" />
+    <Compile Include="Repository\SlabMasterRepository.cs" />
+    <Compile Include="Repository\SMSRepository.cs" />
+    <Compile Include="Repository\StaffRepository.cs" />
+    <Compile Include="Repository\StateMasterRepository.cs" />
+    <Compile Include="Repository\StockOpeningRepository.cs" />
+    <Compile Include="Repository\StockRepository.cs" />
+    <Compile Include="Repository\StockWithoutVatRepository.cs" />
+    <Compile Include="Repository\StockWithVatRepository.cs" />
+    <Compile Include="Repository\SubCategoryRepository.cs" />
+    <Compile Include="Repository\SubGroupMasterRepository.cs" />
+    <Compile Include="Repository\SuppCreditDebitNoteDetailRepository.cs" />
+    <Compile Include="Repository\SuppCreditDebitNoteMasterRepository.cs" />
+    <Compile Include="Repository\SupplierRemainingPaymentRepository.cs" />
+    <Compile Include="Repository\SupplierRepository.cs" />
+    <Compile Include="Repository\TaxSlabRepository.cs" />
+    <Compile Include="Repository\tblTransactionYearDatesRepository.cs" />
+    <Compile Include="Repository\ThermalBillSettingsRepository.cs" />
+    <Compile Include="Repository\TransferStockDetailRepository.cs" />
+    <Compile Include="Repository\TransferStockRepository.cs" />
+    <Compile Include="Repository\TrialPeriodrepository.cs" />
+    <Compile Include="Repository\UnitRepository.cs" />
+    <Compile Include="Repository\UserSeriesRepository.cs" />
+    <Compile Include="Repository\VehicleInformationRepository.cs" />
+    <Compile Include="Repository\VentilationCoolingAndSystemDetailRepository.cs" />
+    <Compile Include="Repository\VentilationCoolingAndSystemMasterRepository..cs" />
+    <Compile Include="Repository\VillageRepository.cs" />
+    <Compile Include="Service\IAccountingGroupMasterRepository.cs" />
+    <Compile Include="Service\IAssemeblyProductDetailsRepository.cs" />
+    <Compile Include="Service\IAveragePurAndSalePriceRepository.cs" />
+    <Compile Include="Service\IBankRepository.cs" />
+    <Compile Include="Service\IBankStatementRepository.cs" />
+    <Compile Include="Service\IBarcodeSettingRepository.cs" />
+    <Compile Include="Service\IBatchRepository.cs" />
+    <Compile Include="Service\IBillInstructionRepository.cs" />
+    <Compile Include="Service\IBillWiseSupplierReceiptRepository.cs" />
+    <Compile Include="Service\IBonusRepository.cs" />
+    <Compile Include="Service\ICategoryRepository.cs" />
+    <Compile Include="Service\IColorRepository.cs" />
+    <Compile Include="Service\ICompanyInformationRepository.cs" />
+    <Compile Include="Service\ICounterCashRepository.cs" />
+    <Compile Include="Service\ICreditAmountRepository.cs" />
+    <Compile Include="Service\ICustCreditDebitNoteDetailRepository.cs" />
+    <Compile Include="Service\ICustCreditDebitNoteMasterRepository.cs" />
+    <Compile Include="Service\ICustomerBillDetailRepository.cs" />
+    <Compile Include="Service\ICustomerBillMasterRepository.cs" />
+    <Compile Include="Service\ICustomerReportSetting.cs" />
+    <Compile Include="Service\ICustomerRepository.cs" />
+    <Compile Include="Service\IDeadDetailRepository.cs" />
+    <Compile Include="Service\IDeadMasterRepository.cs" />
+    <Compile Include="Service\IDeleteHistoryTableRepository.cs" />
+    <Compile Include="Service\IDeliveryChallanDetailRepository.cs" />
+    <Compile Include="Service\IDeliveryChallanRepository.cs" />
+    <Compile Include="Service\IDepartemetRepository.cs" />
+    <Compile Include="Service\IEnvironmentAndCurtainCoolpadSystemDetailRepository.cs" />
+    <Compile Include="Service\IEnvironmentAndCurtainCoolpadSystemRepository.cs" />
+    <Compile Include="Service\IExpenceMasterRepository.cs" />
+    <Compile Include="Service\IExpenceRepository.cs" />
+    <Compile Include="Service\IFakeRemainingPaymentRepository.cs" />
+    <Compile Include="Service\IFestivalRepository.cs" />
+    <Compile Include="Service\IFestivalTemplateRepository.cs" />
+    <Compile Include="Service\IGenericRepository.cs" />
+    <Compile Include="Service\IGodownMasterRepository.cs" />
+    <Compile Include="Service\IGodownStockRepository.cs" />
+    <Compile Include="Service\IGoodDetailRepository.cs" />
+    <Compile Include="Service\IGoodMasterRepository.cs" />
+    <Compile Include="Service\IGroupMasterRepository.cs" />
+    <Compile Include="Service\IGSTMasterRepository.cs" />
+    <Compile Include="Service\IIncomeMasterRepository.cs" />
+    <Compile Include="Service\IJournalEntryRepository.cs" />
+    <Compile Include="Service\ILoginRepository.cs" />
+    <Compile Include="Service\IManufactureCInfoRepository.cs" />
+    <Compile Include="Service\IManufacturingUnitInfoRepository.cs" />
+    <Compile Include="Service\IMistriRepository.cs" />
+    <Compile Include="Service\IIncomeRepository.cs" />
+    <Compile Include="Service\INippleFeederSystemDetailRepository.cs" />
+    <Compile Include="Service\INippleFeederSystemMasterRepository.cs" />
+    <Compile Include="Service\IOrderbookdetailRepository.cs" />
+    <Compile Include="Service\IOrderbookingRepository.cs" />
+    <Compile Include="Service\IPReturnDetailRepository.cs" />
+    <Compile Include="Service\IPReturnMasterRepository.cs" />
+    <Compile Include="Service\IProductRepository.cs" />
+    <Compile Include="Service\IProjectGlanceDetailRepository.cs" />
+    <Compile Include="Service\IProjectGlanceMasterRepository.cs" />
+    <Compile Include="Service\IProprietorLedgerRepository.cs" />
+    <Compile Include="Service\IProprietorMasterRepository.cs" />
+    <Compile Include="Service\IPurchaseDetailRepository.cs" />
+    <Compile Include="Service\IPurchaseDetailTrackRepository.cs" />
+    <Compile Include="Service\IPurchaseMasterRepository.cs" />
+    <Compile Include="Service\IPurchaseOrderPlaceDetailRepository.cs" />
+    <Compile Include="Service\IPurchaseOrderPlaceMasterRepository.cs" />
+    <Compile Include="Service\IQuotationDetailRepository.cs" />
+    <Compile Include="Service\IQuotationImgeMasterRepository.cs" />
+    <Compile Include="Service\IQuotationMasterRepository.cs" />
+    <Compile Include="Service\IRateSlabDetailRepository.cs" />
+    <Compile Include="Service\IRateSlabRepository.cs" />
+    <Compile Include="Service\IRateVariationDetailRepository.cs" />
+    <Compile Include="Service\IRateVariationMasterRepository.cs" />
+    <Compile Include="Service\IReceiptRepository.cs" />
+    <Compile Include="Service\IRecieptChalanDetailRepository.cs" />
+    <Compile Include="Service\IRecieptChallanMasterRepository.cs" />
+    <Compile Include="Service\IRemainingPaymentRepository.cs" />
+    <Compile Include="Service\IReminderRepository.cs" />
+    <Compile Include="Service\IRepackDetailRepository.cs" />
+    <Compile Include="Service\IRepackMasterRepository.cs" />
+    <Compile Include="Service\IRouteRepository.cs" />
+    <Compile Include="Service\ISDetailRepository.cs" />
+    <Compile Include="Service\ISemdMailRepository.cs" />
+    <Compile Include="Service\IServiceDetailRepository.cs" />
+    <Compile Include="Service\IServiceRepository.cs" />
+    <Compile Include="Service\ISettingRepository.cs" />
+    <Compile Include="Service\ISiteInfoRepository.cs" />
+    <Compile Include="Service\ISlabDetailRepository.cs" />
+    <Compile Include="Service\ISlabMasterRepository.cs" />
+    <Compile Include="Service\ISMSRepository.cs" />
+    <Compile Include="Service\IStaffRepository.cs" />
+    <Compile Include="Service\IStateMasterRepository.cs" />
+    <Compile Include="Service\IStockOpeningRepository.cs" />
+    <Compile Include="Service\IStockRepository.cs" />
+    <Compile Include="Service\IStockWithoutVatRepository.cs" />
+    <Compile Include="Service\IStockWithVatRepository.cs" />
+    <Compile Include="Service\ISubCategoryRepository.cs" />
+    <Compile Include="Service\ISubGroupMasterRepository.cs" />
+    <Compile Include="Service\ISuppCreditDebitNoteDetailRepository.cs" />
+    <Compile Include="Service\ISuppCreditDebitNoteMasterRepository.cs" />
+    <Compile Include="Service\ISupplierRemainingPaymentRepository.cs" />
+    <Compile Include="Service\ISupplierRepository.cs" />
+    <Compile Include="Service\ITaxSlabRepository.cs" />
+    <Compile Include="Service\ItblTransactionYearDatesRepository.cs" />
+    <Compile Include="Service\IThermalBillSettingsRepository.cs" />
+    <Compile Include="Service\ITransferStockDetailRepository.cs" />
+    <Compile Include="Service\ITransferStockRepository.cs" />
+    <Compile Include="Service\ITrialPeriodrepository.cs" />
+    <Compile Include="Service\IUnitRepository.cs" />
+    <Compile Include="Service\IUserSeriesRepository.cs" />
+    <Compile Include="Service\IVehicleInformationRepository.cs" />
+    <Compile Include="Service\IVentilationCoolingAndSystemDetailRepository.cs" />
+    <Compile Include="Service\IVentilationCoolingAndSystemMasterRepository.cs" />
+    <Compile Include="Service\IVillageRepository.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="Model\SwamiSamarthModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SwamiSamarthModel1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Model\SwamiSamarthModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SwamiSamarthModel.Context.cs</LastGenOutput>
+    </None>
+    <None Include="Model\SwamiSamarthModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>SwamiSamarthModel.cs</LastGenOutput>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

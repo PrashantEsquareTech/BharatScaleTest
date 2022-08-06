@@ -1,0 +1,118 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AIOInventorySystem.Desk.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AllInOneInventoryWithGSTConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=C-4-PC;Initial Catalog=AllInOneInventoryWithGST;Persist Security Info=True;User ID=sa;Password=admin@123&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=C-4-PC;Initial Catalog=AllInOneInventoryWithGST;Persist Security Info=True;User ID=sa;Password=admin@123</Value>
+    </Setting>
+    <Setting Name="AllInOneIntegratedConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=TFSSERVER\SQL2005;Initial Catalog=AllInOneIntegrated;Persist Security Info=True;User ID=sa;Password=admin@123&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=TFSSERVER\SQL2005;Initial Catalog=AllInOneIntegrated;Persist Security Info=True;User ID=sa;Password=admin@123</Value>
+    </Setting>
+    <Setting Name="SwamiSamarthConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DbBharatScale;User ID=sa;Password=admin@123;MultipleActiveResultSets=True&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DbBharatScale;User ID=sa;Password=admin@123;MultipleActiveResultSets=True</Value>
+    </Setting>
+    <Setting Name="GokulConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DbBharatScale;User ID=sa;Password=admin@123&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DbBharatScale;User ID=sa;Password=admin@123</Value>
+    </Setting>
+    <Setting Name="DBShreeKrushanTradersConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DbBharatScale;Persist Security Info=True;User ID=sa;Password=admin@123&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DbBharatScale;Persist Security Info=True;User ID=sa;Password=admin@123</Value>
+    </Setting>
+    <Setting Name="AllInOneInventoryDBConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DbBharatScale;Persist Security Info=True;User ID=sa;Password=admin@123&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DbBharatScale;Persist Security Info=True;User ID=sa;Password=admin@123</Value>
+    </Setting>
+    <Setting Name="AllInOneInventoryWithGSTConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DbBharatScale;User ID=sa;Password=admin@123&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DbBharatScale;User ID=sa;Password=admin@123</Value>
+    </Setting>
+    <Setting Name="DattTradersTakariGSTConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=C-4-PC;Initial Catalog=DbBharatScale;User ID=sa;Password=admin@123&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=C-4-PC;Initial Catalog=DbBharatScale;User ID=sa;Password=admin@123</Value>
+    </Setting>
+    <Setting Name="DBintegration27Mar20ConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DBintegration27Mar20;Persist Security Info=True;User ID=sa;Password=admin@123&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DBintegration27Mar20;Persist Security Info=True;User ID=sa;Password=admin@123</Value>
+    </Setting>
+    <Setting Name="DBNewIntegrationConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DBNewIntegration;Persist Security Info=True;User ID=sa;Password=admin@123&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DBNewIntegration;Persist Security Info=True;User ID=sa;Password=admin@123</Value>
+    </Setting>
+    <Setting Name="DbAjinkyaAutoUmbrajConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DbBharatScale;Persist Security Info=True;User ID=sa;Password=admin@123&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DbBharatScale;Persist Security Info=True;User ID=sa;Password=admin@123</Value>
+    </Setting>
+    <Setting Name="DbAjinkyaAutoUmbrajConnectionString1" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DbBharatScale;Persist Security Info=True;User ID=sa;Password=admin@123&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DbBharatScale;Persist Security Info=True;User ID=sa;Password=admin@123</Value>
+    </Setting>
+    <Setting Name="DBAutoBizConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DBAutoBiz;User ID=sa;Password=admin@123&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-7U8MGDM\SQLEXPRESS;Initial Catalog=DBAutoBiz;User ID=sa;Password=admin@123</Value>
+    </Setting>
+    <Setting Name="DbBharatScalConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=DESKTOP-66VBN2I\SQLEXPRESS;Initial Catalog=DbBharatScal;User ID=sa;Password=admin@123&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=DESKTOP-66VBN2I\SQLEXPRESS;Initial Catalog=DbBharatScal;User ID=sa;Password=admin@123</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

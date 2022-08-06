@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIOInventorySystem.Data", "AIOInventorySystem.Data\AIOInventorySystem.Data.csproj", "{28D8A4A6-173C-4C3D-8887-CF018E1F47AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AIOInventorySystem.Desk", "AIOInventorySystem.Desk\AIOInventorySystem.Desk.csproj", "{67947A67-7AD7-4CCC-AF9A-F5079018ACF0}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "R@chit", "R@chit\R@chit.vdproj", "{AACF6B7B-2C83-46D5-ADD6-A6DBCA53942D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "R@chitInfo", "R@chitInfo\R@chitInfo.vdproj", "{E9C43997-C714-4726-8BBE-4832619C7427}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "R@chitSetup", "R@chitSetup\R@chitSetup.vdproj", "{CB5EBFDD-4ED8-4400-93CC-73B557950D95}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "R@chitInfoSetup", "R@chitInfoSetup\R@chitInfoSetup.vdproj", "{4E0876A6-BE86-4507-8D75-D307D6D36E4C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "AutoBiz", "AutoBiz\AutoBiz.vdproj", "{5092E984-9570-4769-BF80-477A3A6EAD51}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://esquare-pc:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = AIOInventorySystem.Data\\AIOInventorySystem.Data.csproj
+		SccProjectName1 = AIOInventorySystem.Data
+		SccLocalPath1 = AIOInventorySystem.Data
+		SccProjectUniqueName2 = AIOInventorySystem.Desk\\AIOInventorySystem.Desk.csproj
+		SccProjectName2 = AIOInventorySystem.Desk
+		SccLocalPath2 = AIOInventorySystem.Desk
+		SccProjectUniqueName3 = R@chit\\R@chit.vdproj
+		SccProjectName3 = R@chit
+		SccLocalPath3 = R@chit
+		SccProjectUniqueName4 = R@chitInfo\\R@chitInfo.vdproj
+		SccProjectName4 = R@chitInfo
+		SccLocalPath4 = R@chitInfo
+		SccProjectUniqueName5 = R@chitInfoSetup\\R@chitInfoSetup.vdproj
+		SccProjectName5 = R@chitInfoSetup
+		SccLocalPath5 = R@chitInfoSetup
+		SccProjectUniqueName6 = R@chitSetup\\R@chitSetup.vdproj
+		SccProjectName6 = R@chitSetup
+		SccLocalPath6 = R@chitSetup
+		SccProjectUniqueName7 = AutoBiz\\AutoBiz.vdproj
+		SccProjectName7 = AutoBiz
+		SccLocalPath7 = AutoBiz
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28D8A4A6-173C-4C3D-8887-CF018E1F47AC}.Debug|x86.ActiveCfg = Debug|x86
+		{28D8A4A6-173C-4C3D-8887-CF018E1F47AC}.Debug|x86.Build.0 = Debug|x86
+		{28D8A4A6-173C-4C3D-8887-CF018E1F47AC}.Release|x86.ActiveCfg = Release|x86
+		{28D8A4A6-173C-4C3D-8887-CF018E1F47AC}.Release|x86.Build.0 = Release|x86
+		{67947A67-7AD7-4CCC-AF9A-F5079018ACF0}.Debug|x86.ActiveCfg = Debug|x86
+		{67947A67-7AD7-4CCC-AF9A-F5079018ACF0}.Debug|x86.Build.0 = Debug|x86
+		{67947A67-7AD7-4CCC-AF9A-F5079018ACF0}.Release|x86.ActiveCfg = Release|x86
+		{67947A67-7AD7-4CCC-AF9A-F5079018ACF0}.Release|x86.Build.0 = Release|x86
+		{AACF6B7B-2C83-46D5-ADD6-A6DBCA53942D}.Debug|x86.ActiveCfg = Debug
+		{AACF6B7B-2C83-46D5-ADD6-A6DBCA53942D}.Release|x86.ActiveCfg = Release
+		{E9C43997-C714-4726-8BBE-4832619C7427}.Debug|x86.ActiveCfg = Debug
+		{E9C43997-C714-4726-8BBE-4832619C7427}.Release|x86.ActiveCfg = Release
+		{CB5EBFDD-4ED8-4400-93CC-73B557950D95}.Debug|x86.ActiveCfg = Debug
+		{CB5EBFDD-4ED8-4400-93CC-73B557950D95}.Release|x86.ActiveCfg = Release
+		{4E0876A6-BE86-4507-8D75-D307D6D36E4C}.Debug|x86.ActiveCfg = Debug
+		{4E0876A6-BE86-4507-8D75-D307D6D36E4C}.Release|x86.ActiveCfg = Release
+		{5092E984-9570-4769-BF80-477A3A6EAD51}.Debug|x86.ActiveCfg = Debug
+		{5092E984-9570-4769-BF80-477A3A6EAD51}.Release|x86.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
