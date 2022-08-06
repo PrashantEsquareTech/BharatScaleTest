@@ -14,7 +14,7 @@ namespace AIOInventorySystem.Desk.Forms
         DbClass db = new DbClass();
         CommonMethod cm = new CommonMethod();
         //first push New
-     
+     // second push
         public BatchExpiryWithRemainingStock()
         {
             InitializeComponent();
